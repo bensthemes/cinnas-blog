@@ -576,7 +576,7 @@
             <div class="container">
             
                 <div class="about window">
-                    <div class="window-header">ABOUT ME <a href="https://msnsunglassesemoji.tumblr.com/" style="color: {color:Window Text Color}"> ♡</a></div>
+                    <div class="window-header">ABOUT ME <a href="https://www.tumblr.com/msnsunglassesemoji/716050257816027137/" style="color: {color:Window Text Color}"> ♡</a></div>
                     
                     <div class="about-content">
                         <div class="blog-title">{Title}</div>
@@ -642,7 +642,7 @@
                     
                         <div class="posts window">
                     
-                            <div class="window-header">POSTS<a href="https://msnsunglassesemoji.tumblr.com/" style="color: {color:Window Text Color}"> ♡</a></div>
+                            <div class="window-header">POSTS<a href="https://www.tumblr.com/msnsunglassesemoji/716050257816027137/" style="color: {color:Window Text Color}"> ♡</a></div>
                         
                             <div class="posts-content">
                                 {block:TagPage}
@@ -998,7 +998,7 @@
                 </section> <!--END POSTS SECTION-->
                 
                 <div class="chara">
-                <a href="https://msnsunglassesemoji.tumblr.com/"><img src="{image:Character Pic}"></a>
+                <a href="https://www.tumblr.com/msnsunglassesemoji/716050257816027137/"><img src="{image:Character Pic}"></a>
                 </div>
                 
             </div><!--END CONTAINER-->
