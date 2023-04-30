@@ -21,8 +21,14 @@
         <!--CUSTOMIZATION OPTIONS-->
         
         <!--COLORS
-        These are the meta tags you will replace in case you want the alternate versions
+        
+        btw these are the colors for the background, title and accent
+        #f5fdff
+        #ffb6ce
+        #3d9ac2
+        
         -->
+        
         <meta name="color:Text Color" content="#906f6a">
         <meta name="color:Border Color" content="#beeaf4">
         <meta name="color:Window Background" content="#ffffff">
@@ -42,7 +48,7 @@
         <meta name="color:Background Stripes" content="#ebf7fc">
         
         
-        <!--Other stuff-->
+        <!--the other stuff-->
         
         <meta name="text:Profile Pic Size" content="110px">
         <meta name="text:Font" content="'Rubik', sans-serif">
