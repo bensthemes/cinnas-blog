@@ -73,6 +73,7 @@
         <meta name="if:Image Background" content="0">
         <meta name="if:Background Stripes" content="1">
         <meta name="if:Round Avatar" content="0">
+        <meta name="if:Show Tags" content="1">
         <meta name="if:Custom Link 1" content="1">
         <meta name="if:Custom Link 2" content="0">
         <meta name="if:Custom Link 3" content="0">
@@ -917,6 +918,19 @@
                                                 {/block:Reblogs}
                                                 
                                             {/block:Answer}
+
+                                            {block:ifShowTags}
+                                            <div class="tag-section">                          
+                                                {block:HasTags}
+                                                    <span class="tag-label">
+                                                        Tags:
+                                                    </span>
+                                                    {block:Tags}
+                                                      <a class="tag-link" href="{TagURL}">#{Tag}</a>
+                                                    {/block:Tags}
+                                                {/block:HasTags}
+                                            </div>
+                                            {/block:ifShowTags}
                                         </div> <!--END POST BODY-->
                                     
                                         <div class="post-info">
