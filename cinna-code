@@ -540,6 +540,12 @@
                     padding-top: 0;
                 }
             {/block:TagPage}
+
+            {block:PermalinkPage}
+            .post-wrapper .tag-section {
+                display: none;
+            }
+            {/block:PermalinkPage}
             
             .spotify_audio_player {
                 height: 80px;
