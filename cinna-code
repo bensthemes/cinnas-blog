@@ -3,12 +3,9 @@
     
         <!--
         
-        cinna´s blog by @msnsunglassesemoji
+        cinna´s blog by @bensdraws
         
         feel free to modify this theme however you want
-        
-        tippy.js by 
-        https://github.com/atomiks
         
         -->
         <title>{Title}</title>
@@ -21,14 +18,8 @@
         <!--CUSTOMIZATION OPTIONS-->
         
         <!--COLORS
-        
-        btw these are the colors for the background, title and accent
-        #f5fdff
-        #ffb6ce
-        #3d9ac2
-        
+        These are the meta tags you will replace in case you want the alternate versions
         -->
-        
         <meta name="color:Text Color" content="#906f6a">
         <meta name="color:Border Color" content="#beeaf4">
         <meta name="color:Window Background" content="#ffffff">
@@ -48,7 +39,7 @@
         <meta name="color:Background Stripes" content="#ebf7fc">
         
         
-        <!--the other stuff-->
+        <!--Other stuff-->
         
         <meta name="text:Profile Pic Size" content="110px">
         <meta name="text:Font" content="'Rubik', sans-serif">
@@ -82,6 +73,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
         
+        <!--
+        
+        tippy.js by 
+        https://github.com/atomiks
+        
+        -->
         
         <link rel="stylesheet" href="tippy.js/dist/tippy.css"/>
         
@@ -540,7 +537,7 @@
                     padding-top: 0;
                 }
             {/block:TagPage}
-
+            
             {block:PermalinkPage}
             .post-wrapper .tag-section {
                 display: none;
@@ -583,7 +580,7 @@
             <div class="container">
             
                 <div class="about window">
-                    <div class="window-header">ABOUT ME <a href="https://www.tumblr.com/msnsunglassesemoji/716050257816027137/" style="color: {color:Window Text Color}"> ♡</a></div>
+                    <div class="window-header">ABOUT ME  ♡</div>
                     
                     <div class="about-content">
                         <div class="blog-title">{Title}</div>
@@ -649,7 +646,7 @@
                     
                         <div class="posts window">
                     
-                            <div class="window-header">POSTS<a href="https://www.tumblr.com/msnsunglassesemoji/716050257816027137/" style="color: {color:Window Text Color}"> ♡</a></div>
+                            <div class="window-header">POSTS ♡</div>
                         
                             <div class="posts-content">
                                 {block:TagPage}
@@ -924,7 +921,7 @@
                                                 {/block:Reblogs}
                                                 
                                             {/block:Answer}
-
+                                          
                                             {block:ifShowTags}
                                             <div class="tag-section">                          
                                                 {block:HasTags}
@@ -938,6 +935,8 @@
                                             </div>
                                             {/block:ifShowTags}
                                         </div> <!--END POST BODY-->
+                                        
+                                        
                                     
                                         <div class="post-info">
                                             <div class="vertical-align">
@@ -1018,7 +1017,7 @@
                 </section> <!--END POSTS SECTION-->
                 
                 <div class="chara">
-                <a href="https://www.tumblr.com/msnsunglassesemoji/716050257816027137/"><img src="{image:Character Pic}"></a>
+                <a href="https://bensdraws.tumblr.com/"><img src="{image:Character Pic}" title="theme credit"></a>
                 </div>
                 
             </div><!--END CONTAINER-->
